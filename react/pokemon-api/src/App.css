@@ -1,0 +1,68 @@
+/* Estilo para el contenedor principal */
+.container {
+  display: flex;
+
+  align-items: flex-start; /* Alinea los elementos en la parte superior del contenedor */
+  height: 100vh;
+  background-color: #4c6a88;
+}
+
+/* Estilo para el contenido principal */
+.main-content {
+  padding: 2rem;
+  text-align: left; /* Mantener el texto alineado a la izquierda */
+  background-color: #343a40;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 80%; /* Ajusta el ancho según tus necesidades */
+}
+
+/* Estilo para el título principal */
+h1 {
+  color: #ced4da;
+  margin-bottom: 1.5rem;
+}
+
+/* Estilo para el segundo título */
+h2 {
+  color: #ced4da;
+  margin-bottom: 1rem;
+}
+
+/* Estilo para el formulario de búsqueda */
+.search-form {
+  margin-bottom: 1rem;
+}
+
+/* Estilo para el botón de ordenar */
+.sort-button {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+/* Estilo para la lista de Pokémon */
+.pokemon-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilo para cada elemento de la lista de Pokémon */
+.pokemon-item {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+/* Cambiar el color del texto del enlace */
+a {
+  color: #007bff;
+}
+
+/* Cambiar el color del texto del enlace al pasar el ratón sobre él */
+a:hover {
+  color: #0056b3;
+}
