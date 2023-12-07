@@ -57,7 +57,7 @@ const PokemonList: React.FC = () => {
         />
       </div>
       <button type="button" className="sort-button" onClick={orderByAlph}>
-        Reordain
+        Order
       </button>
       <ul className="pokemon-list">
         {filteredPokemonList.map((pokemon) => (
