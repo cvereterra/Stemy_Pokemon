@@ -13,5 +13,6 @@ from trainer t
     JOIN pokemon p on tp.pokemon_id=p.id
     join pokemon_species ps on p.pokemon_species_id = ps.id
 WHERE t.name = 'Brock'
-order by tp.captured_at 
+order by tp.captured_at DESC -- DESC to order descending, if not default is ASC
+-- If the order is ASC, the first pokemon will be returned instead of the last one
 LIMIT 1;
